@@ -1,0 +1,51 @@
+/* --- FIX LOGO FOOTER & FOOTER STYLE --- */
+
+/* 1. Tambahkan class ini untuk membatasi ukuran logo */
+/* FIX ukuran logo */
+.brand-logo {
+  width: 140px !important; /* Ukuran logo diatur di sini */
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* 2. Perbaikan penulisan CSS Footer (jangan ada footer di dalam footer) */
+/* FIX ukuran logo */
+.brand-logo {
+  width: 120px !important; /* Atur lebar logo (misal 120px) */
+  height: auto !important; /* Biar tetap proporsional */
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+footer#contact h6,
+footer#contact .fw-bold {
+  color: #111827 !important;
+}
+
+footer#contact p,
+footer#contact span,
+footer#contact div,
+footer#contact small {
+  color: rgba(31, 41, 55, 0.85) !important;
+}
+
+footer#contact a {
+  color: rgba(31, 41, 55, 0.9) !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer#contact a:hover {
+  color: var(--dark-pink) !important;
+  padding-left: 5px; /* Efek sedikit geser saat hover */
+}
+
+footer#contact i {
+  color: var(--dark-pink) !important;
+  margin-right: 8px;
+}
+
+footer#contact hr {
+  border-color: rgba(31, 41, 55, 0.1) !important;
+  margin: 30px 0;
+}
